@@ -4,6 +4,17 @@ This repository catalogues optional community maps and map-related assets for `m
 
 The initial catalogue contains payloads for four community maps. Redistribution for these initial entries is treated as `permission-granted` by the modcsbr project owner. Provenance, authorship, hashes, and known gaps are still documented per map so future maintainers can audit or replace files if better primary sources appear.
 
+## Release packages
+
+Every push to `main` runs GitHub Actions and creates a release containing:
+
+- one ZIP per map, such as `cs_rio.zip`;
+- `community-maps-full.zip` with the full catalogue;
+- `manifest-index.json` with release asset metadata;
+- `checksums.sha256` for release artifact validation.
+
+Each per-map ZIP preserves the repository layout under `maps/<map-id>/`. The `modcsbr` development installer can download a release into its local `.downloads/` cache, validate hashes, and copy `maps/<map-id>/files/**` into the generated `runtime/xash3d/modcsbr` folder.
+
 ## Policy
 
 - Every map must have a `manifest.json`.
