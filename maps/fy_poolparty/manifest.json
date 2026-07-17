@@ -1,36 +1,183 @@
-{
-  "id": "fy_poolparty",
-  "title": "fy_poolparty",
-  "game": "Counter-Strike 1.6",
-  "redistribution": "unknown",
-  "source_status": "mirror-only",
-  "authors": [
-    {
-      "name": "Squall",
-      "role": "reported original author",
-      "source": "ports and reuploads",
-      "confidence": "low"
-    }
-  ],
-  "files": [
-    {
-      "path": "files/fy_poolparty.bsp",
-      "hosted": false,
-      "sha256": "44F696ADE6C9F457BE8C5FEEE737D248A01E14D86F94296DD96ABAAFE55C3CB3",
-      "md5": "E8E2A6593BFE60A3820A211D5699D4D9",
-      "size_bytes": 1351196,
-      "notes": "Hash captured from current modcsbr working copy; compare against original package before hosting."
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2292172552",
-      "type": "mirror",
-      "notes": "Workshop page for a port/reupload citing Squall as original author; not a primary source for CS 1.6 binary redistribution."
-    }
-  ],
-  "notes": [
-    "Do not host binary until source and permission are documented.",
-    "Primary source for original CS 1.6 map still needed."
-  ]
+﻿{
+    "id":  "fy_poolparty",
+    "title":  "fy_poolparty",
+    "game":  "Counter-Strike 1.6",
+    "redistribution":  "permission-granted",
+    "source_status":  "community-preserved",
+    "authors":  [
+                    {
+                        "name":  "Squall",
+                        "role":  "map author",
+                        "source":  "GameMaps listing and Steam Workshop port notes",
+                        "confidence":  "high"
+                    }
+                ],
+    "files":  [
+                  {
+                      "path":  "files/gfx/env/tropicalbk.tga",
+                      "hosted":  true,
+                      "sha256":  "1096B4B9EE95B8C936F1392A5A53956CEB70E61B6C0D0D0EEF0D3BE9132FEE89",
+                      "md5":  "B490C640C773E757B4218A02822B5466",
+                      "size_bytes":  196652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/tropicaldn.tga",
+                      "hosted":  true,
+                      "sha256":  "793EB10EDD854F1C765209869600B77670BA4394AFFE80400BE99E969AA88F80",
+                      "md5":  "E756A1A0D6519C8F61B8B6AC386446B1",
+                      "size_bytes":  196652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/tropicalft.tga",
+                      "hosted":  true,
+                      "sha256":  "7826F245898A5542045F5E714DD014FDD80F0D891AEC584F69B38F7D8B733E12",
+                      "md5":  "F255FEBF21F6736097EC6960DDD6CDDF",
+                      "size_bytes":  196652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/tropicallf.tga",
+                      "hosted":  true,
+                      "sha256":  "DAC808B5DB178656D4507226942C98ACB1EB6493ABF9EA76CD1B9AEDCAD406C3",
+                      "md5":  "ED3001D0D84F0E595843656EE1EED2C9",
+                      "size_bytes":  196652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/tropicalrt.tga",
+                      "hosted":  true,
+                      "sha256":  "95852BE3A27AD2354BCBC87CDABA6D8B356864E5B08CE3F581E3B579F18F2678",
+                      "md5":  "C1DDB5EC1EAB170B252835E9D220F39F",
+                      "size_bytes":  196652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/tropicalup.tga",
+                      "hosted":  true,
+                      "sha256":  "7FE2EE81215F6F210065E67F57E31A39C4DFA06AD7DE783190F99081AA64C37F",
+                      "md5":  "AA536740C18F54FE20BC6686C51F7117",
+                      "size_bytes":  196652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/fy_poolparty.bsp",
+                      "hosted":  true,
+                      "sha256":  "44F696ADE6C9F457BE8C5FEEE737D248A01E14D86F94296DD96ABAAFE55C3CB3",
+                      "md5":  "E8E2A6593BFE60A3820A211D5699D4D9",
+                      "size_bytes":  1351196,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/fy_poolparty.nav",
+                      "hosted":  true,
+                      "sha256":  "A085AEEB042383097A64895AD71DBD7A1A62ACAE661541B124663C67C4A8E8DD",
+                      "md5":  "2036FC6F1CB738EF2917C9CB9B373B09",
+                      "size_bytes":  115901,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/fy_poolparty.res",
+                      "hosted":  true,
+                      "sha256":  "1EA36C278A0658A5C57A14EA24F39CC9FC892A0D9219396C473223DB23BA6155",
+                      "md5":  "C8B6DD4743ED6E3990AC83115A138379",
+                      "size_bytes":  652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/fy_poolparty.txt",
+                      "hosted":  true,
+                      "sha256":  "831F5C6D6DEBA7323C9C628775698E90D507F324A716FDFFC6B1FC99CFC0E841",
+                      "md5":  "EB004B22DAA1272632F51CA86CE39742",
+                      "size_bytes":  29,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/overviews/fy_poolparty.tga",
+                      "hosted":  true,
+                      "sha256":  "9930107215C2152F775ED66FF90CA5BB5E658DB27235D292193FCA95A929A417",
+                      "md5":  "78E621EA1F79C59CD63D799DBF73E36A",
+                      "size_bytes":  2359314,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/overviews/fy_poolparty.txt",
+                      "hosted":  true,
+                      "sha256":  "A6523DFDC8044BC27DAB6177F8145F9AB7CDF467651A6C15671BAAC65F3D2ECE",
+                      "md5":  "C4A017ABE4F3188F2EF80F0553E29DF3",
+                      "size_bytes":  182,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/ambience/sprayer.wav",
+                      "hosted":  true,
+                      "sha256":  "FC623C75AE7436CE435C7C51B8B73F7F0FCD8A9C391C7D05BAFBF41C29CB2D6F",
+                      "md5":  "8E1C4A56810BB22B91E59D00AAE77F31",
+                      "size_bytes":  38648,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/poolparty/flush.wav",
+                      "hosted":  true,
+                      "sha256":  "36622587AD02E441F3EC4E2474F4AE2C3F9B0EE2069FE902BB39F8CF75B8FD8B",
+                      "md5":  "4263B426D76710096B90899F4C05E5FA",
+                      "size_bytes":  72140,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/poolparty/shotfart.wav",
+                      "hosted":  true,
+                      "sha256":  "AC44CD5BB42EF9AB552A039AFCF3ED132A20E4331C2463D9AF86BE8AA5771182",
+                      "md5":  "0B8DAA70476DC85FCB13DCC7A3ADA60A",
+                      "size_bytes":  55008,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/poolparty/splat.wav",
+                      "hosted":  true,
+                      "sha256":  "95CC7B3F45642979E84EEB0CEBBCEB1E0BB14957F13EC238157CD536D2EBD645",
+                      "md5":  "4508A629F82869A072AEFE1879D2C517",
+                      "size_bytes":  30586,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/poolparty/squallradio.wav",
+                      "hosted":  true,
+                      "sha256":  "08F6EC9BF0C56ABCC32A2237870BD3752923201CD79BE1869CC1DCFB66E5CF87",
+                      "md5":  "29EC874EE5B119A5DCEB0EE8A22A37DD",
+                      "size_bytes":  165542,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/poolparty/wetfart.wav",
+                      "hosted":  true,
+                      "sha256":  "A12178B2E2E8CA9C89F772238CE35DBA7BF6032A9AED650A53A9119B10EEBB85",
+                      "md5":  "5F2818147F1F96C6D57BFE55A9BF8F18",
+                      "size_bytes":  305756,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  }
+              ],
+    "sources":  [
+                    {
+                        "url":  "https://www.gamemaps.com/details/12535",
+                        "type":  "mirror",
+                        "notes":  "Public listing: fy_poolparty.zip, version 1.0 Final, published 2008-05-10, 607.5 KB, credits Squall."
+                    },
+                    {
+                        "url":  "https://steamcommunity.com/sharedfiles/filedetails/?id=2292172552",
+                        "type":  "mirror",
+                        "notes":  "Steam Workshop port page noting original CS 1.6 author Squall; page is not the payload source."
+                    },
+                    {
+                        "url":  "git+https://github.com/modcsbr/modcsbr@53800c6",
+                        "type":  "community-preserved",
+                        "notes":  "Payload source used for this repository import; files existed in the main modcsbr repository before third-party map assets were split out."
+                    }
+                ],
+    "notes":  [
+                  "Redistribution is treated as permission-granted by modcsbr project-owner decision for the initial community maps catalogue.",
+                  "Package includes map, nav, res, overview, tropical skybox, sprayer.wav, and poolparty sounds preserved in modcsbr history.",
+                  "The .res references default Counter-Strike weapon world models; those Valve/Counter-Strike assets are intentionally not included here."
+              ]
 }

@@ -1,42 +1,336 @@
-{
-  "id": "de_sampa",
-  "title": "de_sampa",
-  "game": "Counter-Strike 1.6",
-  "redistribution": "unknown",
-  "source_status": "archived-primary",
-  "authors": [
-    {
-      "name": "Mataleone",
-      "role": "mapping",
-      "source": "archived Mataleone page",
-      "confidence": "high"
-    },
-    {
-      "name": "Mataleone & Crocodilo",
-      "role": "design and textures",
-      "source": "archived Mataleone page",
-      "confidence": "high"
-    }
-  ],
-  "files": [
-    {
-      "path": "files/de_sampa.bsp",
-      "hosted": false,
-      "sha256": "ECDA9EACEA3494755275C434BA47445450AE2C69F089B985A3147A48965A20FD",
-      "md5": "5A646D8B0AACA0E56C9C53C68533C9D3",
-      "size_bytes": 8753736,
-      "notes": "Hash captured from current modcsbr working copy; compare against original de_sampa.zip before hosting."
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://arquivo.mataleone.com/php/main.php?map=de_sampa&page=map",
-      "type": "archived-primary",
-      "notes": "Archived Mataleone page with release date, credits, and original download reference."
-    }
-  ],
-  "notes": [
-    "Do not host binary until redistribution permission is documented.",
-    "Original page references de_sampa.zip and sampa_wad.zip; compare hashes if original packages are recovered."
-  ]
+﻿{
+    "id":  "de_sampa",
+    "title":  "de_sampa",
+    "game":  "Counter-Strike 1.6",
+    "redistribution":  "permission-granted",
+    "source_status":  "archived-primary",
+    "authors":  [
+                    {
+                        "name":  "Mataleone",
+                        "role":  "mapping",
+                        "source":  "Mataleone archive page",
+                        "confidence":  "high"
+                    },
+                    {
+                        "name":  "Mataleone",
+                        "role":  "design/textures",
+                        "source":  "Mataleone archive page",
+                        "confidence":  "high"
+                    },
+                    {
+                        "name":  "Crocodilo",
+                        "role":  "design/textures",
+                        "source":  "Mataleone archive page",
+                        "confidence":  "high"
+                    }
+                ],
+    "files":  [
+                  {
+                      "path":  "files/gfx/env/sampabk.tga",
+                      "hosted":  true,
+                      "sha256":  "78CD2689E66F444160EF16ABB68BB97965A07294A2B05F98D7FE5B486A19D6D8",
+                      "md5":  "C1329A2CEEF3A2C287FB091182F3E60D",
+                      "size_bytes":  196626,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/sampadn.tga",
+                      "hosted":  true,
+                      "sha256":  "F2CA5ED42F456060CFAFB15066E1F4B7EAFD49FA598D67592075B7C028EB8376",
+                      "md5":  "8C925B6C5FD9CB34E64BF20F60D50DAB",
+                      "size_bytes":  196626,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/sampaft.tga",
+                      "hosted":  true,
+                      "sha256":  "6E54D144628665EB1F05A612417AE3A523A94EA350E4E8805B77C6111C174F07",
+                      "md5":  "C909051846A615E72BFE5E01E8F73E77",
+                      "size_bytes":  196626,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/sampalf.tga",
+                      "hosted":  true,
+                      "sha256":  "245A84F7F6848B494A1C43338B01C03769C3FF63B284D9A9B3BFB2257F16ED91",
+                      "md5":  "91044095492ED78EF27820912D96AC0E",
+                      "size_bytes":  196626,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/sampart.tga",
+                      "hosted":  true,
+                      "sha256":  "B57C6F548A9AE6A4E69FDDCD28FEF5F40161F66C0ED24C3A3DCCB961DF53FD10",
+                      "md5":  "4A9B29E13696185A85FBD4D63FDC041D",
+                      "size_bytes":  196626,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/gfx/env/sampaup.tga",
+                      "hosted":  true,
+                      "sha256":  "6A0769C3F957B8C537242A69F73CD4918592A8CFD148B6FA5821135AE953B3AB",
+                      "md5":  "8AA054B0B090CEB3FEAB2946F854E5C4",
+                      "size_bytes":  196652,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/de_sampa.bsp",
+                      "hosted":  true,
+                      "sha256":  "ECDA9EACEA3494755275C434BA47445450AE2C69F089B985A3147A48965A20FD",
+                      "md5":  "5A646D8B0AACA0E56C9C53C68533C9D3",
+                      "size_bytes":  8753736,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/de_sampa.nav",
+                      "hosted":  true,
+                      "sha256":  "866AD01F78FD25A9AAD85F64FD0D439E21D7944CC82A8364CB2A07E3A40B1B1A",
+                      "md5":  "FFADA08629332DEE1045832E0EF6778B",
+                      "size_bytes":  977786,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/de_sampa.res",
+                      "hosted":  true,
+                      "sha256":  "E3BE4320BDB46893D32F2741B53FB0B1D6B6B7197017AFF02EA823888F0E850D",
+                      "md5":  "984FCC37F42121C8430D257BA5CB0599",
+                      "size_bytes":  757,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/models/sampa/busgib.mdl",
+                      "hosted":  true,
+                      "sha256":  "A2BDBB6C4BE85D83CF4446B5E1C376E5819B945ACCB89DEFBBBC76405A85F554",
+                      "md5":  "3188D92E7F6AB73B8402A2D8EA2ACC4A",
+                      "size_bytes":  4476,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/models/sampa/cervagib.mdl",
+                      "hosted":  true,
+                      "sha256":  "9B13E959E8F7606D43B68E89CEE310DF214BE9737134A772F3D67EC53F8B1BF3",
+                      "md5":  "D2F1D42F1E54C1A52696CA59D3EE4FD6",
+                      "size_bytes":  6964,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/models/sampa/fumaca.spr",
+                      "hosted":  true,
+                      "sha256":  "5A3DF03849BABCF7CB0EEE2F94D9981F32709C096C2515597AB7F9EF78DFAEC7",
+                      "md5":  "5C6994309317C971565934EE70AF0151",
+                      "size_bytes":  54318,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/models/sampa/garrafa.mdl",
+                      "hosted":  true,
+                      "sha256":  "08AC9E80FCF598F3EB194CCA0A0C026C21AC0FAFD0DFEFC8A47BE1BF12140BD6",
+                      "md5":  "9F0AFC1429961A4DD18E1B2C60C3BB7E",
+                      "size_bytes":  29444,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/models/sampa/josias.mdl",
+                      "hosted":  true,
+                      "sha256":  "2793DBF814B16A6F269F523580D1A6D4DE208E2CDC879A0A3771FB591AFBD8B1",
+                      "md5":  "0D7F6D8533359167E8AF707F401280E3",
+                      "size_bytes":  330936,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/models/sampa/pneu.mdl",
+                      "hosted":  true,
+                      "sha256":  "50769A00D740828DF13AB7CEF9159E9BA9F789698C6BE3B9DA9430E8198F7BB9",
+                      "md5":  "958C4497CEF06FD89EBBDF500807F37B",
+                      "size_bytes":  13120,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/overviews/de_sampa.bmp",
+                      "hosted":  true,
+                      "sha256":  "DC7D0F38A5455506C9D02FC536F4B060D84EEA787C631128C79742FDF552BD49",
+                      "md5":  "B83EE0B4AC905212C2DCF1714D2AF17E",
+                      "size_bytes":  787504,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/overviews/de_sampa.txt",
+                      "hosted":  true,
+                      "sha256":  "E1E81C8444F9E27ECC2782EBAE5498CACDC6C4FB09C1A945763A5AD2715CA0BC",
+                      "md5":  "4F8DCE6F04E1D5F6DAEF65E41D221C5B",
+                      "size_bytes":  184,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/PODBot/WPTDefault/de_sampa.pwf",
+                      "hosted":  true,
+                      "sha256":  "5A7C217677DACBC0476CF91621D9E65F8F993C9F19E7B8111BAD44374A341A22",
+                      "md5":  "C38609EEF2C1AD384C305D42EE50D896",
+                      "size_bytes":  127580,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/cachorro.wav",
+                      "hosted":  true,
+                      "sha256":  "912EE5A83B4BC10297874D3B2CE81C6C430D7B3A929F0BCAC43A9FC9D8383881",
+                      "md5":  "6F139E8D397E966E40A5DF8A5C6FDA15",
+                      "size_bytes":  139308,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/djzp.wav",
+                      "hosted":  true,
+                      "sha256":  "F9C9F0B0921399478359A20EB2F9E5BC55366550F4EFF7B3CB82A5A96BEE4AAF",
+                      "md5":  "E4C549B440766F40913AAA43A983682B",
+                      "size_bytes":  223814,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/flipper.wav",
+                      "hosted":  true,
+                      "sha256":  "ECE792BBB30EBC820C0510C1626DE99B1B1702240CA0C68B7E2EBDD53DA7D952",
+                      "md5":  "D5A1075A456BBA44DF5BB6E18A3664C4",
+                      "size_bytes":  8594,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/garoa.wav",
+                      "hosted":  true,
+                      "sha256":  "BC9D2A76270C2771A7BEDA2C1BE400B737DDBAF72BBB6A1F820A3A3B071C3A3C",
+                      "md5":  "C08E381CD6168848CDD7B95A2A37D40A",
+                      "size_bytes":  493366,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/josias1.wav",
+                      "hosted":  true,
+                      "sha256":  "D6A2BD892597F3426B92FEA6D7492FBAE6C9AC896EB239FB44038280D5744882",
+                      "md5":  "83C7F24B59438C5ABF01DB2F7C99DBC3",
+                      "size_bytes":  14108,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/josias2.wav",
+                      "hosted":  true,
+                      "sha256":  "80011754EBA7542DCCFFD81E38714BDB21F0C8F14A91B7CD8E4F3FC622851222",
+                      "md5":  "FA503918ADE6136ECBAAAB47AFADDA8A",
+                      "size_bytes":  12828,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/josias3.wav",
+                      "hosted":  true,
+                      "sha256":  "B79F906896146C8A5C9F6DF511557AE190C37BA80EB7CFE88448B3C2916AF721",
+                      "md5":  "F9BFDB27477B218AF020C72B3BFBDF79",
+                      "size_bytes":  18576,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/josias4.wav",
+                      "hosted":  true,
+                      "sha256":  "8D6C188D1C9D93627FEE7C0216481B3FDB3C0AF26B053C92E93C8AD94D9583B0",
+                      "md5":  "A2403AA6B7E5D66CAD396A2201C69B7B",
+                      "size_bytes":  6126,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/josias5.wav",
+                      "hosted":  true,
+                      "sha256":  "94E414C271801A0B6415E601A6640BFE7A2C392C6580365B9D7BA6C793765200",
+                      "md5":  "C7AE8EA6ADF649B485D5B580886D0897",
+                      "size_bytes":  18418,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/josias6.wav",
+                      "hosted":  true,
+                      "sha256":  "1056ED918C9CB4641E2D286D5552B151EE4A4AD030F677E2D3C1A43D22EBC8B8",
+                      "md5":  "BC86BFDFB1BB51B6C8E41C05FFDC5003",
+                      "size_bytes":  13350,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/metro_vent.wav",
+                      "hosted":  true,
+                      "sha256":  "21F19ECF83CE0019375139B59A82EA2F62F527214F0CB9D398516D12E9F0693C",
+                      "md5":  "627648F600AA0659A1F344B03379DED5",
+                      "size_bytes":  66428,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/misterio.wav",
+                      "hosted":  true,
+                      "sha256":  "967A575A5D05152DFFAC95B8E8A456F84852A4E7C210932B09B909A879423A92",
+                      "md5":  "A9DBC3091E52E01B7D9C29A0EBAEA021",
+                      "size_bytes":  179748,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/neon.wav",
+                      "hosted":  true,
+                      "sha256":  "1141C2C131FA3293A9E1CC7FB559805BB696DE542CBC12C718653127281023E6",
+                      "md5":  "A108B4DC8BCAF88A1EC3CBF2925F84FC",
+                      "size_bytes":  44480,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/panico.wav",
+                      "hosted":  true,
+                      "sha256":  "1F964303C3FAEA7A15479C197A27086AF3B8191F8D7CEF3F9E3E5CAF07472BE9",
+                      "md5":  "F9A4367B145BD2962502A107D6023EA3",
+                      "size_bytes":  543670,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/ruas.wav",
+                      "hosted":  true,
+                      "sha256":  "C116FEF8BBE30B2C93BC37269454A5198B34088E0ACA2DFB33622E317A93FF41",
+                      "md5":  "32B500B9F148CBC763056AE559DF933F",
+                      "size_bytes":  349894,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/saleta.wav",
+                      "hosted":  true,
+                      "sha256":  "9C864E5D82AC935ACE36998C522B6861A4FE9C1FBCF1096E9A2CA2D4125F67E7",
+                      "md5":  "39E78C7A2AB5FEC86B85262114E088FB",
+                      "size_bytes":  22274,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/sampa/sso.wav",
+                      "hosted":  true,
+                      "sha256":  "A30927441E200EA3B47A8DC2A7C8A21D36A66CD326112BAA12A1FDA8D884E865",
+                      "md5":  "9B24EBDA4827F3C8DBEC463CCD85F5FD",
+                      "size_bytes":  95636,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  }
+              ],
+    "sources":  [
+                    {
+                        "url":  "https://arquivo.mataleone.com/php/main.php?map=de_sampa\u0026page=map",
+                        "type":  "archived-primary",
+                        "notes":  "Archived Mataleone page with credits, release date 2002-04-12, and de_sampa.zip reference."
+                    },
+                    {
+                        "url":  "https://baixe.net/de-sampa",
+                        "type":  "mirror",
+                        "notes":  "Public mirror/reference page; listed as gratis with package metadata. Automated download returned HTML in this session, so payload was not taken from this page."
+                    },
+                    {
+                        "url":  "https://baixe.net/de-sampa/download",
+                        "type":  "mirror",
+                        "notes":  "Download metadata page: filename de_sampa.rar, size 6.5 MB, updated 2018-03-26."
+                    },
+                    {
+                        "url":  "git+https://github.com/modcsbr/modcsbr@53800c6",
+                        "type":  "community-preserved",
+                        "notes":  "Payload source used for this repository import; files existed in the main modcsbr repository before third-party map assets were split out."
+                    }
+                ],
+    "notes":  [
+                  "Redistribution is treated as permission-granted by modcsbr project-owner decision for the initial community maps catalogue.",
+                  "Package includes map, nav, res, overview, Sampa skybox, custom models, custom sounds, and PODBot waypoint preserved in modcsbr history.",
+                  "The .res references maps/de_sampa.txt, but that text file was not present in the preserved modcsbr payload."
+              ]
 }

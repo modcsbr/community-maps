@@ -1,40 +1,106 @@
-{
-  "id": "fy_pool_day",
-  "title": "fy_pool_day",
-  "game": "Counter-Strike 1.6",
-  "redistribution": "unknown",
-  "source_status": "community-preserved",
-  "authors": [
-    {
-      "name": "Squall",
-      "role": "reported map author",
-      "source": "community map mirrors and Counter-Strike Wiki",
-      "confidence": "medium"
-    }
-  ],
-  "files": [
-    {
-      "path": "files/fy_pool_day.bsp",
-      "hosted": false,
-      "sha256": "FB22BA78A20D762A7114BDD56D62EC01794695AC48C6777F1BBD676AB769D208",
-      "md5": "70467B0201468CC5CFF7712C7A276299",
-      "size_bytes": 853064,
-      "notes": "Hash captured from current modcsbr working copy; compare against original package before hosting."
-    }
-  ],
-  "sources": [
-    {
-      "url": "https://gamemodding.com/en/counter-strike-1-6/maps/53358-fy_pool_day.html",
-      "type": "mirror",
-      "notes": "Community mirror listing Squall as author."
-    },
-    {
-      "url": "https://mods.vg/maps/fy-pool-day",
-      "type": "mirror",
-      "notes": "Community map page listing Squall as map author."
-    }
-  ],
-  "notes": [
-    "Do not host binary until source and permission are documented."
-  ]
+﻿{
+    "id":  "fy_pool_day",
+    "title":  "fy_pool_day",
+    "game":  "Counter-Strike 1.6",
+    "redistribution":  "permission-granted",
+    "source_status":  "community-preserved",
+    "authors":  [
+                    {
+                        "name":  "Squall",
+                        "role":  "map author",
+                        "source":  "GameModding and DS-Servers pages",
+                        "confidence":  "high"
+                    },
+                    {
+                        "name":  "YellowJello",
+                        "role":  "redistribution .res author",
+                        "source":  "fy_pool_day.res comment",
+                        "confidence":  "high"
+                    }
+                ],
+    "files":  [
+                  {
+                      "path":  "files/maps/fy_pool_day.bsp",
+                      "hosted":  true,
+                      "sha256":  "FB22BA78A20D762A7114BDD56D62EC01794695AC48C6777F1BBD676AB769D208",
+                      "md5":  "70467B0201468CC5CFF7712C7A276299",
+                      "size_bytes":  853064,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/fy_pool_day.nav",
+                      "hosted":  true,
+                      "sha256":  "38C81D029D1E5EC757542F44A9D54CE42F99281E8BCF5C23A7E98AC30B95C8F1",
+                      "md5":  "E4799A4F230A06BE51469B0AFC0C473B",
+                      "size_bytes":  38557,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/fy_pool_day.res",
+                      "hosted":  true,
+                      "sha256":  "D6FF6A775889C2B9C611A02057C8C3C927351F93ACC268909C32355661A54D57",
+                      "md5":  "80B8A216AD0130C67ED9AD50FE552BEF",
+                      "size_bytes":  379,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/maps/fy_pool_day.txt",
+                      "hosted":  true,
+                      "sha256":  "DABADE7714E1C94EBA323F9E2E55E1FDDA3FD4022DA1D76ED0B94FB603A071E5",
+                      "md5":  "9527669FD713AA15C40774B9CA380612",
+                      "size_bytes":  113,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/overviews/fy_pool_day.bmp",
+                      "hosted":  true,
+                      "sha256":  "C749DB8D2B8978D442DDCA1D43D797FBDA744B295C1CD30C6EFD4026734FEC7D",
+                      "md5":  "22BD1F74C0829E448435B4083468BACA",
+                      "size_bytes":  787512,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/overviews/fy_pool_day.txt",
+                      "hosted":  true,
+                      "sha256":  "49314F8BDEAC2627F25AA44B6F275270DC4D8887C90F602D3C74257283075051",
+                      "md5":  "8B58C087355D631943992815E6E3F46E",
+                      "size_bytes":  238,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  },
+                  {
+                      "path":  "files/sound/ambience/sprayer.wav",
+                      "hosted":  true,
+                      "sha256":  "FC623C75AE7436CE435C7C51B8B73F7F0FCD8A9C391C7D05BAFBF41C29CB2D6F",
+                      "md5":  "8E1C4A56810BB22B91E59D00AAE77F31",
+                      "size_bytes":  38648,
+                      "notes":  "Payload preserved from modcsbr repository history commit 53800c6 before moving third-party map assets out of the main repo."
+                  }
+              ],
+    "sources":  [
+                    {
+                        "url":  "https://baixe.net/en/fy-pool-day/download",
+                        "type":  "mirror",
+                        "notes":  "Download metadata page: filename fy-pool-day.zip, size 410.67 KB, SHA-256 61b0790ea0fb22ca727add66a58c7eddb916c1e4b440efe9d31cacb3fb271059, updated 2021-02-26. Automated download returned HTML in this session."
+                    },
+                    {
+                        "url":  "https://gamemodding.com/en/counter-strike-1-6/maps/53358-fy_pool_day.html",
+                        "type":  "mirror",
+                        "notes":  "Public listing crediting Squall."
+                    },
+                    {
+                        "url":  "https://en.ds-servers.com/maps/goldsrc/cstrike/fy_pool_day.html",
+                        "type":  "mirror",
+                        "notes":  "Public listing with embedded map text crediting Squall and listing required resources."
+                    },
+                    {
+                        "url":  "git+https://github.com/modcsbr/modcsbr@53800c6",
+                        "type":  "community-preserved",
+                        "notes":  "Payload source used for this repository import; files existed in the main modcsbr repository before third-party map assets were split out."
+                    }
+                ],
+    "notes":  [
+                  "Redistribution is treated as permission-granted by modcsbr project-owner decision for the initial community maps catalogue.",
+                  "Package includes map, nav, res, overview, map text, and sprayer.wav preserved in modcsbr history.",
+                  "The .res references desert skybox files, but those files were not present in the preserved modcsbr payload."
+              ]
 }

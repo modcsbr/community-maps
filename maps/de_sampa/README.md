@@ -1,11 +1,12 @@
-# de_sampa
+﻿# de_sampa
 
-Status: documented only; binaries are not hosted by this template.
+Status: hosted in this repository.
 
-`de_sampa` is a community Counter-Strike Bomb Defuse map. An archived Mataleone page is a strong starting point for provenance, but redistribution still needs explicit confirmation.
+`de_sampa` is a community Counter-Strike Bomb Defuse map. Redistribution for this initial catalogue entry is treated as `permission-granted` by the modcsbr project owner.
 
-Current recommendation:
+Notes:
 
-- keep metadata and hashes;
-- treat the archived Mataleone page as provenance evidence;
-- do not host binaries until redistribution permission is documented.
+- payload preserved from `modcsbr` history commit `53800c6`;
+- archived Mataleone page provides strong provenance for authorship and release information;
+- the preserved package did not include `maps/de_sampa.txt`, even though the `.res` references it;
+- see `manifest.json` for hashes, sources, and file list.

@@ -1,19 +1,19 @@
-# modcsbr community maps
+﻿# modcsbr community maps
 
-This repository is intended to catalogue optional community maps and map-related assets for `modcsbr`.
+This repository catalogues optional community maps and map-related assets for `modcsbr`.
 
-It starts as a provenance and credit catalogue. Do not add `.bsp`, `.nav`, `.res`, `.wad`, model, sound, overview, or skybox binaries until redistribution is allowed or explicitly approved.
+The initial catalogue contains payloads for four community maps. Redistribution for these initial entries is treated as `permission-granted` by the modcsbr project owner. Provenance, authorship, hashes, and known gaps are still documented per map so future maintainers can audit or replace files if better primary sources appear.
 
 ## Policy
 
 - Every map must have a `manifest.json`.
 - Every map must have a human-readable `README.md`.
 - Every hosted binary must have SHA256, MD5, size in bytes, source URL, authorship notes, and redistribution status.
-- Mirrors without clear credits are not enough to host binaries.
+- Mirrors without clear credits are not enough for new binaries unless the project owner explicitly grants permission for inclusion.
 - Files with unknown permission may be documented but must not be committed.
 - Valve/Steam assets must not be committed.
 
-## Suggested layout
+## Layout
 
 ```text
 maps/
@@ -21,10 +21,14 @@ maps/
     README.md
     manifest.json
     files/
-      .gitkeep
+      maps/
+      gfx/
+      sound/
 schemas/
   map-manifest.schema.json
 ```
+
+Each `files/` directory preserves the Counter-Strike relative paths expected by the map package.
 
 ## Status values
 
@@ -47,10 +51,10 @@ schemas/
 
 ## Initial catalogue
 
-- `cs_rio`: documented, redistribution unknown.
-- `de_sampa`: documented, redistribution unknown.
-- `fy_pool_day`: documented, redistribution unknown.
-- `fy_poolparty`: documented, redistribution unknown.
+- `cs_rio`: hosted; redistribution permission granted by project-owner decision; authorship has conflicting public reports.
+- `de_sampa`: hosted; redistribution permission granted by project-owner decision; archived Mataleone page provides strong provenance.
+- `fy_pool_day`: hosted; redistribution permission granted by project-owner decision; original author credited as Squall by community sources.
+- `fy_poolparty`: hosted; redistribution permission granted by project-owner decision; original author credited as Squall by community sources.
 
 ## Related policy
 

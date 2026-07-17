@@ -1,11 +1,12 @@
-# fy_poolparty
+﻿# fy_poolparty
 
-Status: documented only; binaries are not hosted by this template.
+Status: hosted in this repository.
 
-`fy_poolparty` appears in community reuploads and ports. Some sources cite Squall as original author, but a primary source still needs confirmation.
+`fy_poolparty` is a community Fight Yard map for Counter-Strike. Redistribution for this initial catalogue entry is treated as `permission-granted` by the modcsbr project owner.
 
-Current recommendation:
+Notes:
 
-- keep metadata and hashes;
-- separate original CS 1.6 map evidence from later ports;
-- do not host binaries until redistribution permission is documented.
+- payload preserved from `modcsbr` history commit `53800c6`;
+- community listings and ports credit Squall as the original author;
+- Valve/Counter-Strike default weapon models referenced by the `.res` are intentionally not included;
+- see `manifest.json` for hashes, sources, and file list.

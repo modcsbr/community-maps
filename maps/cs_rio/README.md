@@ -1,11 +1,12 @@
-# cs_rio
+﻿# cs_rio
 
-Status: documented only; binaries are not hosted by this template.
+Status: hosted in this repository.
 
-`cs_rio` is a community Counter-Strike map. Public sources disagree or use different names/aliases for authorship, so credits need reconciliation before redistribution.
+`cs_rio` is a community Counter-Strike Hostage Rescue map. Redistribution for this initial catalogue entry is treated as `permission-granted` by the modcsbr project owner.
 
-Current recommendation:
+Notes:
 
-- keep metadata and hashes;
-- do not host binaries until permission/provenance are documented;
-- reconcile author names before publishing final credits.
+- payload preserved from `modcsbr` history commit `53800c6`;
+- public sources disagree or use different names/aliases for authorship;
+- credits currently preserve all plausible reported names until better primary evidence is found;
+- see `manifest.json` for hashes, sources, and file list.
